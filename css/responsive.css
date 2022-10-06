@@ -1,21 +1,17 @@
 @media only screen and (max-width: 600px) {
     body {
         background-color: lightblue;
-        font-size: 30px;
+        font-size: 100%;
     }
 
     h1 {
-        font-size: 30px;
     }
 }
 
 
 @media only screen and (min-width: 601px) {
-    body {
-        font-size: 80px;
-    }
 
-    h1 {
-        font-size: 80px;
-    }
+   body {
+       font-size: 150%;
+   }
 }

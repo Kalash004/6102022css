@@ -12,3 +12,19 @@ body {
 #title h1 {
     text-align: center;
 }
+
+#cards {
+    display: grid;
+    grid-template: 1fr 1fr 1fr/ 1fr 1fr 1fr;
+    border: 1px black solid
+}
+
+#cards div {
+    display: block;
+    background-color: whitesmoke;
+    margin: 10px;
+    height: 180px;
+    width: 150px;
+    border-radius: 15px;
+    box-shadow: black 1px 1px 15px;
+}
