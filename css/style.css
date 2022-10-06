@@ -15,16 +15,26 @@ body {
 
 #cards {
     display: grid;
-    grid-template: 1fr 1fr 1fr/ 1fr 1fr 1fr;
-    border: 1px black solid
+    background-color: lightblue;
+    border-radius: 15px;
+    width: 85%;
+    height: 1000px;
+    margin: auto;
+    grid-template: 1fr 1fr 1fr / 3fr 2fr 1fr;
+    column-gap: 1px;
+    row-gap: 1px;
+    place-items: center;
 }
 
 #cards div {
+    margin: auto;
     display: block;
     background-color: whitesmoke;
-    margin: 10px;
-    height: 180px;
-    width: 150px;
+    height:95%;
+    width: 95%;
     border-radius: 15px;
     box-shadow: black 1px 1px 15px;
+}
+
+#cards div:first-child {
 }
