@@ -5,12 +5,26 @@ body {
 }
 
 #title {
-    display: flexbox;
+    display: flex;
     justify-content: center;
+    border: black 1px solid;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 
 #title h1 {
     text-align: center;
+    width: 50%;
+    flex-grow: 4;
+}
+
+#title div {
+    display: block;
+    width: 100px;
+    height: 125px;
+    background-color: whitesmoke;
 }
 
 #cards {
@@ -30,11 +44,10 @@ body {
     margin: auto;
     display: block;
     background-color: whitesmoke;
-    height:95%;
+    height: 95%;
     width: 95%;
     border-radius: 15px;
     box-shadow: black 1px 1px 15px;
 }
 
-#cards div:first-child {
-}
+#cards div:first-child {}

@@ -3,15 +3,28 @@
         background-color: lightblue;
         font-size: 100%;
     }
-
-    h1 {
+    #cards {
+        min-width: 400px;
+        height: 400px;
+        background-color: rgb(15, 14, 13);
+        grid-template: 1fr 1fr 1fr / 5fr 4fr 3fr;
     }
 }
 
+@media only screen and (max-width: 400px) {
+    body {
+        font-size: 70%;
+    }
+    #cards {
+        grid-template: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr / 1fr;
+        background-color: rebeccapurple;
+        min-width: 150px;
+        min-height: 1000px;
+    }
+}
 
 @media only screen and (min-width: 601px) {
-
-   body {
-       font-size: 150%;
-   }
+    body {
+        font-size: 150%;
+    }
 }
